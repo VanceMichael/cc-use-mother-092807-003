@@ -18,7 +18,7 @@
 - 灾害与补植
 - 资金和社区收益
 
-`contracts/context.schema.json` 描述资料结构，`fixtures/context.json` 提供不含真实身份信息的示例，`src/news_context_003.py` 负责读取和校验这些资料。
+`contracts/context.schema.json` 描述资料结构，`fixtures/context.json` 提供不含真实身份信息的示例，`src/news_context_003.py` 负责读取和校验这些资料。`src/restoration_service.py` 在此之上实现承诺申报、监测核证、灾害补植、付款审批与审计解释的完整服务，设计要点见 `docs/service-design.md`。
 
 ## 开发命令
 
